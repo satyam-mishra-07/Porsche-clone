@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*^ HEADER */
+
+.navbar{
+    height: 83px;
+    width: 100%;
+}
+
+.navbar img{ 
+    display: block;
+    width: 20%;
+    margin: auto;
+}
