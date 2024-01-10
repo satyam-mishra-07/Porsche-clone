@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -10,8 +13,69 @@
     width: 100%;
 }
 
-.navbar img{ 
-    display: block;
+.navbar a img{ 
     width: 20%;
-    margin: auto;
+    position: absolute;
+    left: 39.5%;
 }
+
+/** Hero Section */
+
+/* color: #d5001c; */
+
+.heroSection .heroText {
+    position: absolute;
+    top: 534px;
+    left: 66px;
+    color: white;
+    transition: all ease 500ms;
+}
+
+.heroSection .heroText p {
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    z-index: +1;
+}
+
+.heroSection .heroText:hover{
+    color: #d5001c;
+    cursor: pointer;
+}
+
+.heroSection .heroText .heading {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 54px;
+}
+
+.heroSection .heroText .heading span{
+    color: #d5001c;
+}
+
+.heroSection .heroText .desc {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 34px;
+    left: 41px;
+}
+
+/*& Model Section */
+
+.modelSection h3{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #000000;
+    padding: 25px;
+    position: absolute;
+    left: 80px;
+}
+
+.modelSection .cars {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+}
+
